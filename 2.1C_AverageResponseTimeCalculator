@@ -1,0 +1,636 @@
+* Original code I wrote myself, while a large language model did the repetitions. Due to variables names differing, I was not able to use a for-loop and therefore used this solution instead, sub-optimal, but it works. Haha.
+* Futhermore, response times longer than 15 seconds were not considered, due to it probably being due to outside distractions
+* Initialize X, Y, A, and B to 0 for each participant.
+COMPUTE X = 0.
+COMPUTE Y = 0.
+COMPUTE A = 0.
+COMPUTE B = 0.
+
+* Add values to X and increase Y by 1 when the check is 1 and PageSubmit is 15 or less.
+IF (Q357 = 1 AND Q317_PageSubmit <= 15) X = X + Q317_PageSubmit.
+IF (Q357 = 1 AND Q317_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q409 = 1 AND Q408_PageSubmit <= 15) X = X + Q408_PageSubmit.
+IF (Q409 = 1 AND Q408_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q411 = 1 AND Q410_PageSubmit <= 15) X = X + Q410_PageSubmit.
+IF (Q411 = 1 AND Q410_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q413 = 1 AND Q412_PageSubmit <= 15) X = X + Q412_PageSubmit.
+IF (Q413 = 1 AND Q412_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q415 = 1 AND Q414_PageSubmit <= 15) X = X + Q414_PageSubmit.
+IF (Q415 = 1 AND Q414_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q417 = 1 AND Q416_PageSubmit <= 15) X = X + Q416_PageSubmit.
+IF (Q417 = 1 AND Q416_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q419 = 1 AND Q418_PageSubmit <= 15) X = X + Q418_PageSubmit.
+IF (Q419 = 1 AND Q418_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q421 = 1 AND Q420_PageSubmit <= 15) X = X + Q420_PageSubmit.
+IF (Q421 = 1 AND Q420_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q423 = 1 AND Q422_PageSubmit <= 15) X = X + Q422_PageSubmit.
+IF (Q423 = 1 AND Q422_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q425 = 1 AND Q424_PageSubmit <= 15) X = X + Q424_PageSubmit.
+IF (Q425 = 1 AND Q424_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q427 = 1 AND Q426_PageSubmit <= 15) X = X + Q426_PageSubmit.
+IF (Q427 = 1 AND Q426_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q429 = 1 AND Q428_PageSubmit <= 15) X = X + Q428_PageSubmit.
+IF (Q429 = 1 AND Q428_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q431 = 1 AND Q430_PageSubmit <= 15) X = X + Q430_PageSubmit.
+IF (Q431 = 1 AND Q430_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q433 = 1 AND Q432_PageSubmit <= 15) X = X + Q432_PageSubmit.
+IF (Q433 = 1 AND Q432_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q435 = 1 AND Q434_PageSubmit <= 15) X = X + Q434_PageSubmit.
+IF (Q435 = 1 AND Q434_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q437 = 1 AND Q436_PageSubmit <= 15) X = X + Q436_PageSubmit.
+IF (Q437 = 1 AND Q436_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q439 = 1 AND Q438_PageSubmit <= 15) X = X + Q438_PageSubmit.
+IF (Q439 = 1 AND Q438_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q441 = 1 AND Q440_PageSubmit <= 15) X = X + Q440_PageSubmit.
+IF (Q441 = 1 AND Q440_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q443 = 1 AND Q442_PageSubmit <= 15) X = X + Q442_PageSubmit.
+IF (Q443 = 1 AND Q442_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q445 = 1 AND Q444_PageSubmit <= 15) X = X + Q444_PageSubmit.
+IF (Q445 = 1 AND Q444_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q447 = 1 AND Q446_PageSubmit <= 15) X = X + Q446_PageSubmit.
+IF (Q447 = 1 AND Q446_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q449 = 1 AND Q448_PageSubmit <= 15) X = X + Q448_PageSubmit.
+IF (Q449 = 1 AND Q448_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q451 = 1 AND Q450_PageSubmit <= 15) X = X + Q450_PageSubmit.
+IF (Q451 = 1 AND Q450_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q453 = 1 AND Q452_PageSubmit <= 15) X = X + Q452_PageSubmit.
+IF (Q453 = 1 AND Q452_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q455 = 1 AND Q454_PageSubmit <= 15) X = X + Q454_PageSubmit.
+IF (Q455 = 1 AND Q454_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q457 = 1 AND Q456_PageSubmit <= 15) X = X + Q456_PageSubmit.
+IF (Q457 = 1 AND Q456_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q459 = 1 AND Q458_PageSubmit <= 15) X = X + Q458_PageSubmit.
+IF (Q459 = 1 AND Q458_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q461 = 1 AND Q460_PageSubmit <= 15) X = X + Q460_PageSubmit.
+IF (Q461 = 1 AND Q460_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q463 = 1 AND Q462_PageSubmit <= 15) X = X + Q462_PageSubmit.
+IF (Q463 = 1 AND Q462_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q465 = 1 AND Q464_PageSubmit <= 15) X = X + Q464_PageSubmit.
+IF (Q465 = 1 AND Q464_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q467 = 1 AND Q466_PageSubmit <= 15) X = X + Q466_PageSubmit.
+IF (Q467 = 1 AND Q466_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q469 = 1 AND Q468_PageSubmit <= 15) X = X + Q468_PageSubmit.
+IF (Q469 = 1 AND Q468_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q471 = 1 AND Q470_PageSubmit <= 15) X = X + Q470_PageSubmit.
+IF (Q471 = 1 AND Q470_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q473 = 1 AND Q472_PageSubmit <= 15) X = X + Q472_PageSubmit.
+IF (Q473 = 1 AND Q472_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q475 = 1 AND Q474_PageSubmit <= 15) X = X + Q474_PageSubmit.
+IF (Q475 = 1 AND Q474_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q477 = 1 AND Q476_PageSubmit <= 15) X = X + Q476_PageSubmit.
+IF (Q477 = 1 AND Q476_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q479 = 1 AND Q478_PageSubmit <= 15) X = X + Q478_PageSubmit.
+IF (Q479 = 1 AND Q478_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q481 = 1 AND Q480_PageSubmit <= 15) X = X + Q480_PageSubmit.
+IF (Q481 = 1 AND Q480_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q483 = 1 AND Q482_PageSubmit <= 15) X = X + Q482_PageSubmit.
+IF (Q483 = 1 AND Q482_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q485 = 1 AND Q484_PageSubmit <= 15) X = X + Q484_PageSubmit.
+IF (Q485 = 1 AND Q484_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q487 = 1 AND Q486_PageSubmit <= 15) X = X + Q486_PageSubmit.
+IF (Q487 = 1 AND Q486_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q489 = 1 AND Q488_PageSubmit <= 15) X = X + Q488_PageSubmit.
+IF (Q489 = 1 AND Q488_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q491 = 1 AND Q490_PageSubmit <= 15) X = X + Q490_PageSubmit.
+IF (Q491 = 1 AND Q490_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q493 = 1 AND Q492_PageSubmit <= 15) X = X + Q492_PageSubmit.
+IF (Q493 = 1 AND Q492_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q495 = 1 AND Q494_PageSubmit <= 15) X = X + Q494_PageSubmit.
+IF (Q495 = 1 AND Q494_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q497 = 1 AND Q496_PageSubmit <= 15) X = X + Q496_PageSubmit.
+IF (Q497 = 1 AND Q496_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q499 = 1 AND Q498_PageSubmit <= 15) X = X + Q498_PageSubmit.
+IF (Q499 = 1 AND Q498_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q501 = 1 AND Q500_PageSubmit <= 15) X = X + Q500_PageSubmit.
+IF (Q501 = 1 AND Q500_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q503 = 1 AND Q502_PageSubmit <= 15) X = X + Q502_PageSubmit.
+IF (Q503 = 1 AND Q502_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q505 = 1 AND Q504_PageSubmit <= 15) X = X + Q504_PageSubmit.
+IF (Q505 = 1 AND Q504_PageSubmit <= 15) Y = Y + 1.
+
+* Divide X by Y, only if Y > 0 to avoid division by zero.
+IF (Y > 0) X = X / Y.
+
+* Add values to A and increase B by 1 when the check is 2 and PageSubmit is 15 or less.
+IF (Q357 = 2 AND Q317_PageSubmit <= 15) A = A + Q317_PageSubmit.
+IF (Q357 = 2 AND Q317_PageSubmit <= 15) B = B + 1.
+
+IF (Q409 = 2 AND Q408_PageSubmit <= 15) A = A + Q408_PageSubmit.
+IF (Q409 = 2 AND Q408_PageSubmit <= 15) B = B + 1.
+
+IF (Q411 = 2 AND Q410_PageSubmit <= 15) A = A + Q410_PageSubmit.
+IF (Q411 = 2 AND Q410_PageSubmit <= 15) B = B + 1.
+
+IF (Q413 = 2 AND Q412_PageSubmit <= 15) A = A + Q412_PageSubmit.
+IF (Q413 = 2 AND Q412_PageSubmit <= 15) B = B + 1.
+
+IF (Q415 = 2 AND Q414_PageSubmit <= 15) A = A + Q414_PageSubmit.
+IF (Q415 = 2 AND Q414_PageSubmit <= 15) B = B + 1.
+
+IF (Q417 = 2 AND Q416_PageSubmit <= 15) A = A + Q416_PageSubmit.
+IF (Q417 = 2 AND Q416_PageSubmit <= 15) B = B + 1.
+
+IF (Q419 = 2 AND Q418_PageSubmit <= 15) A = A + Q418_PageSubmit.
+IF (Q419 = 2 AND Q418_PageSubmit <= 15) B = B + 1.
+
+IF (Q421 = 2 AND Q420_PageSubmit <= 15) A = A + Q420_PageSubmit.
+IF (Q421 = 2 AND Q420_PageSubmit <= 15) B = B + 1.
+
+IF (Q423 = 2 AND Q422_PageSubmit <= 15) A = A + Q422_PageSubmit.
+IF (Q423 = 2 AND Q422_PageSubmit <= 15) B = B + 1.
+
+IF (Q425 = 2 AND Q424_PageSubmit <= 15) A = A + Q424_PageSubmit.
+IF (Q425 = 2 AND Q424_PageSubmit <= 15) B = B + 1.
+
+IF (Q427 = 2 AND Q426_PageSubmit <= 15) A = A + Q426_PageSubmit.
+IF (Q427 = 2 AND Q426_PageSubmit <= 15) B = B + 1.
+
+IF (Q429 = 2 AND Q428_PageSubmit <= 15) A = A + Q428_PageSubmit.
+IF (Q429 = 2 AND Q428_PageSubmit <= 15) B = B + 1.
+
+IF (Q431 = 2 AND Q430_PageSubmit <= 15) A = A + Q430_PageSubmit.
+IF (Q431 = 2 AND Q430_PageSubmit <= 15) B = B + 1.
+
+IF (Q433 = 2 AND Q432_PageSubmit <= 15) A = A + Q432_PageSubmit.
+IF (Q433 = 2 AND Q432_PageSubmit <= 15) B = B + 1.
+
+IF (Q435 = 2 AND Q434_PageSubmit <= 15) A = A + Q434_PageSubmit.
+IF (Q435 = 2 AND Q434_PageSubmit <= 15) B = B + 1.
+
+IF (Q437 = 2 AND Q436_PageSubmit <= 15) A = A + Q436_PageSubmit.
+IF (Q437 = 2 AND Q436_PageSubmit <= 15) B = B + 1.
+
+IF (Q439 = 2 AND Q438_PageSubmit <= 15) A = A + Q438_PageSubmit.
+IF (Q439 = 2 AND Q438_PageSubmit <= 15) B = B + 1.
+
+IF (Q441 = 2 AND Q440_PageSubmit <= 15) A = A + Q440_PageSubmit.
+IF (Q441 = 2 AND Q440_PageSubmit <= 15) B = B + 1.
+
+IF (Q443 = 2 AND Q442_PageSubmit <= 15) A = A + Q442_PageSubmit.
+IF (Q443 = 2 AND Q442_PageSubmit <= 15) B = B + 1.
+
+IF (Q445 = 2 AND Q444_PageSubmit <= 15) A = A + Q444_PageSubmit.
+IF (Q445 = 2 AND Q444_PageSubmit <= 15) B = B + 1.
+
+IF (Q447 = 2 AND Q446_PageSubmit <= 15) A = A + Q446_PageSubmit.
+IF (Q447 = 2 AND Q446_PageSubmit <= 15) B = B + 1.
+
+IF (Q449 = 2 AND Q448_PageSubmit <= 15) A = A + Q448_PageSubmit.
+IF (Q449 = 2 AND Q448_PageSubmit <= 15) B = B + 1.
+
+IF (Q451 = 2 AND Q450_PageSubmit <= 15) A = A + Q450_PageSubmit.
+IF (Q451 = 2 AND Q450_PageSubmit <= 15) B = B + 1.
+
+IF (Q453 = 2 AND Q452_PageSubmit <= 15) A = A + Q452_PageSubmit.
+IF (Q453 = 2 AND Q452_PageSubmit <= 15) B = B + 1.
+
+IF (Q455 = 2 AND Q454_PageSubmit <= 15) A = A + Q454_PageSubmit.
+IF (Q455 = 2 AND Q454_PageSubmit <= 15) B = B + 1.
+
+IF (Q457 = 2 AND Q456_PageSubmit <= 15) A = A + Q456_PageSubmit.
+IF (Q457 = 2 AND Q456_PageSubmit <= 15) B = B + 1.
+
+IF (Q459 = 2 AND Q458_PageSubmit <= 15) A = A + Q458_PageSubmit.
+IF (Q459 = 2 AND Q458_PageSubmit <= 15) B = B + 1.
+
+IF (Q461 = 2 AND Q460_PageSubmit <= 15) A = A + Q460_PageSubmit.
+IF (Q461 = 2 AND Q460_PageSubmit <= 15) B = B + 1.
+
+IF (Q463 = 2 AND Q462_PageSubmit <= 15) A = A + Q462_PageSubmit.
+IF (Q463 = 2 AND Q462_PageSubmit <= 15) B = B + 1.
+
+IF (Q465 = 2 AND Q464_PageSubmit <= 15) A = A + Q464_PageSubmit.
+IF (Q465 = 2 AND Q464_PageSubmit <= 15) B = B + 1.
+
+IF (Q467 = 2 AND Q466_PageSubmit <= 15) A = A + Q466_PageSubmit.
+IF (Q467 = 2 AND Q466_PageSubmit <= 15) B = B + 1.
+
+IF (Q469 = 2 AND Q468_PageSubmit <= 15) A = A + Q468_PageSubmit.
+IF (Q469 = 2 AND Q468_PageSubmit <= 15) B = B + 1.
+
+IF (Q471 = 2 AND Q470_PageSubmit <= 15) A = A + Q470_PageSubmit.
+IF (Q471 = 2 AND Q470_PageSubmit <= 15) B = B + 1.
+
+IF (Q473 = 2 AND Q472_PageSubmit <= 15) A = A + Q472_PageSubmit.
+IF (Q473 = 2 AND Q472_PageSubmit <= 15) B = B + 1.
+
+IF (Q475 = 2 AND Q474_PageSubmit <= 15) A = A + Q474_PageSubmit.
+IF (Q475 = 2 AND Q474_PageSubmit <= 15) B = B + 1.
+
+IF (Q477 = 2 AND Q476_PageSubmit <= 15) A = A + Q476_PageSubmit.
+IF (Q477 = 2 AND Q476_PageSubmit <= 15) B = B + 1.
+
+IF (Q479 = 2 AND Q478_PageSubmit <= 15) A = A + Q478_PageSubmit.
+IF (Q479 = 2 AND Q478_PageSubmit <= 15) B = B + 1.
+
+IF (Q481 = 2 AND Q480_PageSubmit <= 15) A = A + Q480_PageSubmit.
+IF (Q481 = 2 AND Q480_PageSubmit <= 15) B = B + 1.
+
+IF (Q483 = 2 AND Q482_PageSubmit <= 15) A = A + Q482_PageSubmit.
+IF (Q483 = 2 AND Q482_PageSubmit <= 15) B = B + 1.
+
+IF (Q485 = 2 AND Q484_PageSubmit <= 15) A = A + Q484_PageSubmit.
+IF (Q485 = 2 AND Q484_PageSubmit <= 15) B = B + 1.
+
+IF (Q487 = 2 AND Q486_PageSubmit <= 15) A = A + Q486_PageSubmit.
+IF (Q487 = 2 AND Q486_PageSubmit <= 15) B = B + 1.
+
+IF (Q489 = 2 AND Q488_PageSubmit <= 15) A = A + Q488_PageSubmit.
+IF (Q489 = 2 AND Q488_PageSubmit <= 15) B = B + 1.
+
+IF (Q491 = 2 AND Q490_PageSubmit <= 15) A = A + Q490_PageSubmit.
+IF (Q491 = 2 AND Q490_PageSubmit <= 15) B = B + 1.
+
+IF (Q493 = 2 AND Q492_PageSubmit <= 15) A = A + Q492_PageSubmit.
+IF (Q493 = 2 AND Q492_PageSubmit <= 15) B = B + 1.
+
+IF (Q495 = 2 AND Q494_PageSubmit <= 15) A = A + Q494_PageSubmit.
+IF (Q495 = 2 AND Q494_PageSubmit <= 15) B = B + 1.
+
+IF (Q497 = 2 AND Q496_PageSubmit <= 15) A = A + Q496_PageSubmit.
+IF (Q497 = 2 AND Q496_PageSubmit <= 15) B = B + 1.
+
+IF (Q499 = 2 AND Q498_PageSubmit <= 15) A = A + Q498_PageSubmit.
+IF (Q499 = 2 AND Q498_PageSubmit <= 15) B = B + 1.
+
+IF (Q501 = 2 AND Q500_PageSubmit <= 15) A = A + Q500_PageSubmit.
+IF (Q501 = 2 AND Q500_PageSubmit <= 15) B = B + 1.
+
+IF (Q503 = 2 AND Q502_PageSubmit <= 15) A = A + Q502_PageSubmit.
+IF (Q503 = 2 AND Q502_PageSubmit <= 15) B = B + 1.
+
+IF (Q505 = 2 AND Q504_PageSubmit <= 15) A = A + Q504_PageSubmit.
+IF (Q505 = 2 AND Q504_PageSubmit <= 15) B = B + 1.
+
+* Divide A by B, only if B > 0 to avoid division by zero.
+IF (B > 0) A = A / B.
+
+* Execute the transformations.
+EXECUTE.
+
+* Initialize X, Y, A, and B to 0 for each participant.
+COMPUTE X = 0.
+COMPUTE Y = 0.
+COMPUTE A = 0.
+COMPUTE B = 0.
+
+* Add values to X and increase Y by 1 when the check is 1 and PageSubmit is 15 or less.
+IF (Q357 = 1 AND Q317_PageSubmit <= 15) X = X + Q317_PageSubmit.
+IF (Q357 = 1 AND Q317_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q409 = 1 AND Q408_PageSubmit <= 15) X = X + Q408_PageSubmit.
+IF (Q409 = 1 AND Q408_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q411 = 1 AND Q410_PageSubmit <= 15) X = X + Q410_PageSubmit.
+IF (Q411 = 1 AND Q410_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q413 = 1 AND Q412_PageSubmit <= 15) X = X + Q412_PageSubmit.
+IF (Q413 = 1 AND Q412_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q415 = 1 AND Q414_PageSubmit <= 15) X = X + Q414_PageSubmit.
+IF (Q415 = 1 AND Q414_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q417 = 1 AND Q416_PageSubmit <= 15) X = X + Q416_PageSubmit.
+IF (Q417 = 1 AND Q416_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q419 = 1 AND Q418_PageSubmit <= 15) X = X + Q418_PageSubmit.
+IF (Q419 = 1 AND Q418_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q421 = 1 AND Q420_PageSubmit <= 15) X = X + Q420_PageSubmit.
+IF (Q421 = 1 AND Q420_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q423 = 1 AND Q422_PageSubmit <= 15) X = X + Q422_PageSubmit.
+IF (Q423 = 1 AND Q422_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q425 = 1 AND Q424_PageSubmit <= 15) X = X + Q424_PageSubmit.
+IF (Q425 = 1 AND Q424_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q427 = 1 AND Q426_PageSubmit <= 15) X = X + Q426_PageSubmit.
+IF (Q427 = 1 AND Q426_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q429 = 1 AND Q428_PageSubmit <= 15) X = X + Q428_PageSubmit.
+IF (Q429 = 1 AND Q428_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q431 = 1 AND Q430_PageSubmit <= 15) X = X + Q430_PageSubmit.
+IF (Q431 = 1 AND Q430_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q433 = 1 AND Q432_PageSubmit <= 15) X = X + Q432_PageSubmit.
+IF (Q433 = 1 AND Q432_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q435 = 1 AND Q434_PageSubmit <= 15) X = X + Q434_PageSubmit.
+IF (Q435 = 1 AND Q434_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q437 = 1 AND Q436_PageSubmit <= 15) X = X + Q436_PageSubmit.
+IF (Q437 = 1 AND Q436_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q439 = 1 AND Q438_PageSubmit <= 15) X = X + Q438_PageSubmit.
+IF (Q439 = 1 AND Q438_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q441 = 1 AND Q440_PageSubmit <= 15) X = X + Q440_PageSubmit.
+IF (Q441 = 1 AND Q440_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q443 = 1 AND Q442_PageSubmit <= 15) X = X + Q442_PageSubmit.
+IF (Q443 = 1 AND Q442_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q445 = 1 AND Q444_PageSubmit <= 15) X = X + Q444_PageSubmit.
+IF (Q445 = 1 AND Q444_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q447 = 1 AND Q446_PageSubmit <= 15) X = X + Q446_PageSubmit.
+IF (Q447 = 1 AND Q446_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q449 = 1 AND Q448_PageSubmit <= 15) X = X + Q448_PageSubmit.
+IF (Q449 = 1 AND Q448_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q451 = 1 AND Q450_PageSubmit <= 15) X = X + Q450_PageSubmit.
+IF (Q451 = 1 AND Q450_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q453 = 1 AND Q452_PageSubmit <= 15) X = X + Q452_PageSubmit.
+IF (Q453 = 1 AND Q452_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q455 = 1 AND Q454_PageSubmit <= 15) X = X + Q454_PageSubmit.
+IF (Q455 = 1 AND Q454_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q457 = 1 AND Q456_PageSubmit <= 15) X = X + Q456_PageSubmit.
+IF (Q457 = 1 AND Q456_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q459 = 1 AND Q458_PageSubmit <= 15) X = X + Q458_PageSubmit.
+IF (Q459 = 1 AND Q458_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q461 = 1 AND Q460_PageSubmit <= 15) X = X + Q460_PageSubmit.
+IF (Q461 = 1 AND Q460_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q463 = 1 AND Q462_PageSubmit <= 15) X = X + Q462_PageSubmit.
+IF (Q463 = 1 AND Q462_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q465 = 1 AND Q464_PageSubmit <= 15) X = X + Q464_PageSubmit.
+IF (Q465 = 1 AND Q464_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q467 = 1 AND Q466_PageSubmit <= 15) X = X + Q466_PageSubmit.
+IF (Q467 = 1 AND Q466_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q469 = 1 AND Q468_PageSubmit <= 15) X = X + Q468_PageSubmit.
+IF (Q469 = 1 AND Q468_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q471 = 1 AND Q470_PageSubmit <= 15) X = X + Q470_PageSubmit.
+IF (Q471 = 1 AND Q470_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q473 = 1 AND Q472_PageSubmit <= 15) X = X + Q472_PageSubmit.
+IF (Q473 = 1 AND Q472_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q475 = 1 AND Q474_PageSubmit <= 15) X = X + Q474_PageSubmit.
+IF (Q475 = 1 AND Q474_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q477 = 1 AND Q476_PageSubmit <= 15) X = X + Q476_PageSubmit.
+IF (Q477 = 1 AND Q476_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q479 = 1 AND Q478_PageSubmit <= 15) X = X + Q478_PageSubmit.
+IF (Q479 = 1 AND Q478_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q481 = 1 AND Q480_PageSubmit <= 15) X = X + Q480_PageSubmit.
+IF (Q481 = 1 AND Q480_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q483 = 1 AND Q482_PageSubmit <= 15) X = X + Q482_PageSubmit.
+IF (Q483 = 1 AND Q482_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q485 = 1 AND Q484_PageSubmit <= 15) X = X + Q484_PageSubmit.
+IF (Q485 = 1 AND Q484_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q487 = 1 AND Q486_PageSubmit <= 15) X = X + Q486_PageSubmit.
+IF (Q487 = 1 AND Q486_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q489 = 1 AND Q488_PageSubmit <= 15) X = X + Q488_PageSubmit.
+IF (Q489 = 1 AND Q488_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q491 = 1 AND Q490_PageSubmit <= 15) X = X + Q490_PageSubmit.
+IF (Q491 = 1 AND Q490_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q493 = 1 AND Q492_PageSubmit <= 15) X = X + Q492_PageSubmit.
+IF (Q493 = 1 AND Q492_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q495 = 1 AND Q494_PageSubmit <= 15) X = X + Q494_PageSubmit.
+IF (Q495 = 1 AND Q494_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q497 = 1 AND Q496_PageSubmit <= 15) X = X + Q496_PageSubmit.
+IF (Q497 = 1 AND Q496_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q499 = 1 AND Q498_PageSubmit <= 15) X = X + Q498_PageSubmit.
+IF (Q499 = 1 AND Q498_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q501 = 1 AND Q500_PageSubmit <= 15) X = X + Q500_PageSubmit.
+IF (Q501 = 1 AND Q500_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q503 = 1 AND Q502_PageSubmit <= 15) X = X + Q502_PageSubmit.
+IF (Q503 = 1 AND Q502_PageSubmit <= 15) Y = Y + 1.
+
+IF (Q505 = 1 AND Q504_PageSubmit <= 15) X = X + Q504_PageSubmit.
+IF (Q505 = 1 AND Q504_PageSubmit <= 15) Y = Y + 1.
+
+* Divide X by Y, only if Y > 0 to avoid division by zero.
+IF (Y > 0) X = X / Y.
+
+* Add values to A and increase B by 1 when the check is 2 and PageSubmit is 15 or less.
+IF (Q357 = 2 AND Q317_PageSubmit <= 15) A = A + Q317_PageSubmit.
+IF (Q357 = 2 AND Q317_PageSubmit <= 15) B = B + 1.
+
+IF (Q409 = 2 AND Q408_PageSubmit <= 15) A = A + Q408_PageSubmit.
+IF (Q409 = 2 AND Q408_PageSubmit <= 15) B = B + 1.
+
+IF (Q411 = 2 AND Q410_PageSubmit <= 15) A = A + Q410_PageSubmit.
+IF (Q411 = 2 AND Q410_PageSubmit <= 15) B = B + 1.
+
+IF (Q413 = 2 AND Q412_PageSubmit <= 15) A = A + Q412_PageSubmit.
+IF (Q413 = 2 AND Q412_PageSubmit <= 15) B = B + 1.
+
+IF (Q415 = 2 AND Q414_PageSubmit <= 15) A = A + Q414_PageSubmit.
+IF (Q415 = 2 AND Q414_PageSubmit <= 15) B = B + 1.
+
+IF (Q417 = 2 AND Q416_PageSubmit <= 15) A = A + Q416_PageSubmit.
+IF (Q417 = 2 AND Q416_PageSubmit <= 15) B = B + 1.
+
+IF (Q419 = 2 AND Q418_PageSubmit <= 15) A = A + Q418_PageSubmit.
+IF (Q419 = 2 AND Q418_PageSubmit <= 15) B = B + 1.
+
+IF (Q421 = 2 AND Q420_PageSubmit <= 15) A = A + Q420_PageSubmit.
+IF (Q421 = 2 AND Q420_PageSubmit <= 15) B = B + 1.
+
+IF (Q423 = 2 AND Q422_PageSubmit <= 15) A = A + Q422_PageSubmit.
+IF (Q423 = 2 AND Q422_PageSubmit <= 15) B = B + 1.
+
+IF (Q425 = 2 AND Q424_PageSubmit <= 15) A = A + Q424_PageSubmit.
+IF (Q425 = 2 AND Q424_PageSubmit <= 15) B = B + 1.
+
+IF (Q427 = 2 AND Q426_PageSubmit <= 15) A = A + Q426_PageSubmit.
+IF (Q427 = 2 AND Q426_PageSubmit <= 15) B = B + 1.
+
+IF (Q429 = 2 AND Q428_PageSubmit <= 15) A = A + Q428_PageSubmit.
+IF (Q429 = 2 AND Q428_PageSubmit <= 15) B = B + 1.
+
+IF (Q431 = 2 AND Q430_PageSubmit <= 15) A = A + Q430_PageSubmit.
+IF (Q431 = 2 AND Q430_PageSubmit <= 15) B = B + 1.
+
+IF (Q433 = 2 AND Q432_PageSubmit <= 15) A = A + Q432_PageSubmit.
+IF (Q433 = 2 AND Q432_PageSubmit <= 15) B = B + 1.
+
+IF (Q435 = 2 AND Q434_PageSubmit <= 15) A = A + Q434_PageSubmit.
+IF (Q435 = 2 AND Q434_PageSubmit <= 15) B = B + 1.
+
+IF (Q437 = 2 AND Q436_PageSubmit <= 15) A = A + Q436_PageSubmit.
+IF (Q437 = 2 AND Q436_PageSubmit <= 15) B = B + 1.
+
+IF (Q439 = 2 AND Q438_PageSubmit <= 15) A = A + Q438_PageSubmit.
+IF (Q439 = 2 AND Q438_PageSubmit <= 15) B = B + 1.
+
+IF (Q441 = 2 AND Q440_PageSubmit <= 15) A = A + Q440_PageSubmit.
+IF (Q441 = 2 AND Q440_PageSubmit <= 15) B = B + 1.
+
+IF (Q443 = 2 AND Q442_PageSubmit <= 15) A = A + Q442_PageSubmit.
+IF (Q443 = 2 AND Q442_PageSubmit <= 15) B = B + 1.
+
+IF (Q445 = 2 AND Q444_PageSubmit <= 15) A = A + Q444_PageSubmit.
+IF (Q445 = 2 AND Q444_PageSubmit <= 15) B = B + 1.
+
+IF (Q447 = 2 AND Q446_PageSubmit <= 15) A = A + Q446_PageSubmit.
+IF (Q447 = 2 AND Q446_PageSubmit <= 15) B = B + 1.
+
+IF (Q449 = 2 AND Q448_PageSubmit <= 15) A = A + Q448_PageSubmit.
+IF (Q449 = 2 AND Q448_PageSubmit <= 15) B = B + 1.
+
+IF (Q451 = 2 AND Q450_PageSubmit <= 15) A = A + Q450_PageSubmit.
+IF (Q451 = 2 AND Q450_PageSubmit <= 15) B = B + 1.
+
+IF (Q453 = 2 AND Q452_PageSubmit <= 15) A = A + Q452_PageSubmit.
+IF (Q453 = 2 AND Q452_PageSubmit <= 15) B = B + 1.
+
+IF (Q455 = 2 AND Q454_PageSubmit <= 15) A = A + Q454_PageSubmit.
+IF (Q455 = 2 AND Q454_PageSubmit <= 15) B = B + 1.
+
+IF (Q457 = 2 AND Q456_PageSubmit <= 15) A = A + Q456_PageSubmit.
+IF (Q457 = 2 AND Q456_PageSubmit <= 15) B = B + 1.
+
+IF (Q459 = 2 AND Q458_PageSubmit <= 15) A = A + Q458_PageSubmit.
+IF (Q459 = 2 AND Q458_PageSubmit <= 15) B = B + 1.
+
+IF (Q461 = 2 AND Q460_PageSubmit <= 15) A = A + Q460_PageSubmit.
+IF (Q461 = 2 AND Q460_PageSubmit <= 15) B = B + 1.
+
+IF (Q463 = 2 AND Q462_PageSubmit <= 15) A = A + Q462_PageSubmit.
+IF (Q463 = 2 AND Q462_PageSubmit <= 15) B = B + 1.
+
+IF (Q465 = 2 AND Q464_PageSubmit <= 15) A = A + Q464_PageSubmit.
+IF (Q465 = 2 AND Q464_PageSubmit <= 15) B = B + 1.
+
+IF (Q467 = 2 AND Q466_PageSubmit <= 15) A = A + Q466_PageSubmit.
+IF (Q467 = 2 AND Q466_PageSubmit <= 15) B = B + 1.
+
+IF (Q469 = 2 AND Q468_PageSubmit <= 15) A = A + Q468_PageSubmit.
+IF (Q469 = 2 AND Q468_PageSubmit <= 15) B = B + 1.
+
+IF (Q471 = 2 AND Q470_PageSubmit <= 15) A = A + Q470_PageSubmit.
+IF (Q471 = 2 AND Q470_PageSubmit <= 15) B = B + 1.
+
+IF (Q473 = 2 AND Q472_PageSubmit <= 15) A = A + Q472_PageSubmit.
+IF (Q473 = 2 AND Q472_PageSubmit <= 15) B = B + 1.
+
+IF (Q475 = 2 AND Q474_PageSubmit <= 15) A = A + Q474_PageSubmit.
+IF (Q475 = 2 AND Q474_PageSubmit <= 15) B = B + 1.
+
+IF (Q477 = 2 AND Q476_PageSubmit <= 15) A = A + Q476_PageSubmit.
+IF (Q477 = 2 AND Q476_PageSubmit <= 15) B = B + 1.
+
+IF (Q479 = 2 AND Q478_PageSubmit <= 15) A = A + Q478_PageSubmit.
+IF (Q479 = 2 AND Q478_PageSubmit <= 15) B = B + 1.
+
+IF (Q481 = 2 AND Q480_PageSubmit <= 15) A = A + Q480_PageSubmit.
+IF (Q481 = 2 AND Q480_PageSubmit <= 15) B = B + 1.
+
+IF (Q483 = 2 AND Q482_PageSubmit <= 15) A = A + Q482_PageSubmit.
+IF (Q483 = 2 AND Q482_PageSubmit <= 15) B = B + 1.
+
+IF (Q485 = 2 AND Q484_PageSubmit <= 15) A = A + Q484_PageSubmit.
+IF (Q485 = 2 AND Q484_PageSubmit <= 15) B = B + 1.
+
+IF (Q487 = 2 AND Q486_PageSubmit <= 15) A = A + Q486_PageSubmit.
+IF (Q487 = 2 AND Q486_PageSubmit <= 15) B = B + 1.
+
+IF (Q489 = 2 AND Q488_PageSubmit <= 15) A = A + Q488_PageSubmit.
+IF (Q489 = 2 AND Q488_PageSubmit <= 15) B = B + 1.
+
+IF (Q491 = 2 AND Q490_PageSubmit <= 15) A = A + Q490_PageSubmit.
+IF (Q491 = 2 AND Q490_PageSubmit <= 15) B = B + 1.
+
+IF (Q493 = 2 AND Q492_PageSubmit <= 15) A = A + Q492_PageSubmit.
+IF (Q493 = 2 AND Q492_PageSubmit <= 15) B = B + 1.
+
+IF (Q495 = 2 AND Q494_PageSubmit <= 15) A = A + Q494_PageSubmit.
+IF (Q495 = 2 AND Q494_PageSubmit <= 15) B = B + 1.
+
+IF (Q497 = 2 AND Q496_PageSubmit <= 15) A = A + Q496_PageSubmit.
+IF (Q497 = 2 AND Q496_PageSubmit <= 15) B = B + 1.
+
+IF (Q499 = 2 AND Q498_PageSubmit <= 15) A = A + Q498_PageSubmit.
+IF (Q499 = 2 AND Q498_PageSubmit <= 15) B = B + 1.
+
+IF (Q501 = 2 AND Q500_PageSubmit <= 15) A = A + Q500_PageSubmit.
+IF (Q501 = 2 AND Q500_PageSubmit <= 15) B = B + 1.
+
+IF (Q503 = 2 AND Q502_PageSubmit <= 15) A = A + Q502_PageSubmit.
+IF (Q503 = 2 AND Q502_PageSubmit <= 15) B = B + 1.
+
+IF (Q505 = 2 AND Q504_PageSubmit <= 15) A = A + Q504_PageSubmit.
+IF (Q505 = 2 AND Q504_PageSubmit <= 15) B = B + 1.
+
+* Divide A by B, only if B > 0 to avoid division by zero.
+IF (B > 0) A = A / B.
+
+* Execute the transformations.
+EXECUTE.
+
